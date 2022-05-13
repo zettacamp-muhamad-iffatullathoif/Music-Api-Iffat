@@ -1,0 +1,81 @@
+.loading-spinner {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+}
+
+.card {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+mat-card {
+    width: 580px;
+    max-height: 450px;
+    background-color: rgb(33, 33, 33);
+}
+
+mat-card-header {
+    display: block;
+    text-align: center;
+    width: 433px;
+    margin: 0 auto;
+}
+
+mat-card-title {
+    position: relative;
+}
+
+.flag {
+    width: 40px;
+}
+
+.flag img {
+    position: absolute;
+    right: 10%;
+    top: 12%;
+    width: 40px;
+    border-radius: 50%;
+}
+
+mat-card-title h2 {
+    color: rgb(242, 222, 87);
+    font-weight: bold;
+    font-size: 28px;
+}
+
+mat-card-subtitle {
+    color: white;
+}
+
+mat-card-content {
+    padding: 17px 81px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+form>p {
+    font-weight: 500;
+}
+
+.btn-login {
+    width: 100px;
+    margin: 0 auto;
+}
+
+
+/* mat-form-field {
+    position: relative;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+} */
